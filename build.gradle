@@ -1,0 +1,27 @@
+plugins {
+    id 'java-gradle-plugin'
+    id 'maven-publish'
+}
+
+group = 'tn.eternity'
+version = '1.0.4'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.maven:maven-plugin-api:3.9.9'
+    compileOnly("org.apache.maven.plugin-tools:maven-plugin-annotations:3.15.1")
+    implementation 'org.apache.httpcomponents:httpcomponents-client:4.5.14'
+    implementation 'com.github.javaparser:javaparser-core:3.27.0'
+}
+
+gradlePlugin {
+    plugins {
+        eldocs {
+            id = 'tn.eternity.eldocs' // the plugin ID you apply in app
+            implementationClass = 'tn.eternity.eldocs.ElDocsPlugin'
+        }
+    }
+}

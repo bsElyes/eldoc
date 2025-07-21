@@ -1,0 +1,47 @@
+*.iml
+*.ipr
+*.crt
+*.key
+*.jks
+.classpath
+.idea
+.project
+.settings
+.checkstyle
+bin
+build
+out
+target
+/work/
+release.properties
+.flattened-pom.xml
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+*.iws
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+prosper-pay-firebase-adminsdk-*.json
+firebase-adminsdk.json
+### VS Code ###
+.vscode/
+eternity/data
+eternity/data-test
+.env
