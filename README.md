@@ -90,5 +90,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-- Issues: [GitHub Issues](https://github.com/eternity-platform/elDoc/issues)
-- Email: support@eternity-platform.com
+- Issues: [GitHub Issues](https://github.com/bsElyes/elDoc/issues)
+- Email: bselyes@gmail.com
